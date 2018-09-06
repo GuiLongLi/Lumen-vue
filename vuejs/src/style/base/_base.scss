@@ -1,0 +1,161 @@
+.el-main {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/*文章列表*/
+.index-main-title h1 {
+  font-size: 2em;
+  line-height: 2em;
+}
+.index-main-title h2 {
+  font-size: 1.2em;
+  line-height: 1.5em;
+}
+.index-main-title {
+  padding-top: 1em;
+}
+@media (min-width: 400px) {
+  .index-main-title {
+    padding-top: 2em;
+  }
+  .index-main-title h2 {
+    font-size: 1.5em;
+    line-height: 1.5em;
+  }
+}
+@media (min-width: 476px) {
+  .index-main-title {
+    padding-top: 3em;
+  }
+}
+@media (min-width: 576px) {
+  .el-main {
+    max-width: 540px;
+  }
+  .index-main-title h1 {
+    font-size: 2.5em;
+    line-height: 2em;
+  }
+  .index-main-title h2 {
+    font-size: 2em;
+    line-height: 2em;
+  }
+  .index-main-title {
+    padding-top: 4em;
+  }
+}
+
+@media (min-width: 768px) {
+  .el-main {
+    max-width: 720px;
+  }
+  .index-main-title h1 {
+    font-size: 3em;
+    line-height: 2.5em;
+  }
+  .index-main-title h2 {
+    font-size: 2em;
+    line-height: 2em;
+  }
+  .index-main-title {
+    padding-top: 5em;
+  }
+}
+
+@media (min-width: 992px) {
+  .el-main {
+    max-width: 960px;
+  }
+  .index-main-title h1 {
+    font-size: 3.5em;
+    line-height: 2.5em;
+  }
+  .index-main-title h2 {
+    font-size: 2em;
+    line-height: 2em;
+  }
+  .index-main-title {
+    padding-top: 6em;
+  }
+}
+
+@media (min-width: 1200px) {
+  .el-main {
+    max-width: 1140px;
+  }
+  .index-main-title h1 {
+    font-size: 3.5em;
+    line-height: 2em;
+  }
+  .index-main-title h2 {
+    font-size: 2em;
+    line-height: 2em;
+  }
+  .index-main-title {
+    padding-top: 8em;
+  }
+}
+
+/*文章详细*/
+.article-main-title h1 {
+  font-size: 1.2em;
+  line-height: 1.2em;
+}
+.article-main-title {
+  padding-top: 1.5em;
+}
+@media (min-width: 400px) {
+  .article-main-title {
+    padding-top: 2em;
+  }
+}
+@media (min-width: 476px) {
+  .article-main-title h1 {
+    font-size: 2em;
+    line-height: 2em;
+  }
+  .article-main-title {
+    padding-top: 2.5em;
+  }
+}
+@media (min-width: 576px) {
+  .article-main-title h1 {
+    font-size: 2em;
+    line-height: 2em;
+  }
+  .article-main-title {
+    padding-top: 2.5em;
+  }
+}
+@media (min-width: 768px) {
+  .article-main-title h1 {
+    font-size: 2.5em;
+    line-height: 2em;
+  }
+  .article-main-title {
+    padding-top: 3.5em;
+  }
+}
+@media (min-width: 992px) {
+  .article-main-title h1 {
+    font-size: 3em;
+    line-height: 2.5em;
+  }
+  .article-main-title {
+    padding-top: 4em;
+  }
+}
+
+@media (min-width: 1200px) {
+  .article-main-title h1 {
+    font-size: 3.5em;
+    line-height: 2em;
+  }
+  .article-main-title {
+    padding-top: 5em;
+  }
+}
